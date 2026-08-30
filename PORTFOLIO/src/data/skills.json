@@ -1,0 +1,18 @@
+[
+  {
+    "category": "PROGRAMMING LANGUAGES",
+    "skills": ["Java", "Python", "C", "C++", "SQL", "HTML5", "CSS3", "JavaScript", "TypeScript"]
+  },
+  {
+    "category": "PLATFORMS & TOOLS",
+    "skills": ["Raspberry Pi 5", "Arduino Due / Nano", "Arduino IDE", "Git & GitHub", "VS Code", "Linux CLI", "MS Office"]
+  },
+  {
+    "category": "DOMAINS & SPECIALIZATIONS",
+    "skills": ["Robotics", "Embedded Systems", "Internet of Things (IoT)", "AI Integration", "Computer Vision (OpenCV)", "Autonomous Navigation"]
+  },
+  {
+    "category": "SOFT SKILLS & PROFESSIONAL",
+    "skills": ["Team Collaboration", "Problem Solving", "Adaptability", "Technical Communication", "Project Lifecycle Management"]
+  }
+]

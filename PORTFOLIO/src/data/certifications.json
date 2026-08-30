@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cert1",
+    "title": "Advanced Robotics Using AI & IoT",
+    "organization": "AICTE - EduSkills",
+    "date": "Jan – Mar 2026",
+    "description": "ML for perception, IoT protocols, embedded systems, robotic integration",
+    "url": "",
+    "visible": true
+  },
+  {
+    "id": "cert2",
+    "title": "Web Full Stack Developer",
+    "organization": "AICTE - EduSkills via National Internship Portal",
+    "date": "Oct – Dec 2024",
+    "description": "Frontend, backend APIs, database management, cloud deployment",
+    "url": "",
+    "visible": true
+  },
+  {
+    "id": "cert3",
+    "title": "Python Basics for Data Science",
+    "organization": "edX · IBM",
+    "date": "Jun 2024",
+    "description": "Python programming, data structures, data science workflows",
+    "url": "",
+    "visible": true
+  },
+  {
+    "id": "cert4",
+    "title": "Java Programming Fundamentals",
+    "organization": "edX · Universidad Galileo",
+    "date": "Jun 2024",
+    "description": "Core Java, OOP design, logical reasoning, debugging",
+    "url": "",
+    "visible": true
+  },
+  {
+    "id": "cert5",
+    "title": "HTML5 and CSS Fundamentals",
+    "organization": "edX · W3Cx / W3C",
+    "date": "Jul 2024",
+    "description": "Semantic web markup, CSS layout, responsive design",
+    "url": "",
+    "visible": true
+  }
+]

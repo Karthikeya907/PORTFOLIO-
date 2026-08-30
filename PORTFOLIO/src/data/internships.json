@@ -1,0 +1,32 @@
+[
+  {
+    "id": "int3",
+    "role": "ROBOTICS TRAINER",
+    "company": "LEAP ROBOTS",
+    "duration": "June - Aug 2026",
+    "location": "On-site",
+    "description": "Mentored and trained students in core robotics, embedded systems, and automation concepts. Guided the hands-on development of various hardware and software projects (featured in the Project Vault). Facilitated practical learning in microcontroller programming, sensor integration, and real-world robotics applications.",
+    "technologies": ["Robotics", "Embedded C", "Arduino", "Sensors", "Mentorship"],
+    "certificateAvailable": false
+  },
+  {
+    "id": "int2",
+    "role": "ADVANCED ROBOTICS & IOT INTERN",
+    "company": "EduSkills Academy (AICTE)",
+    "duration": "Jan - Mar 2026",
+    "location": "Virtual Internship",
+    "description": "Implemented robotic systems covering perception fundamentals, IoT communication protocols, and sensor interfacing. Designed and tested an autonomous robotic system with intelligent decision-making using Python and embedded C for real-time control.",
+    "technologies": ["Python", "Embedded C", "IoT", "Raspberry Pi", "Arduino"],
+    "certificateAvailable": true
+  },
+  {
+    "id": "int1",
+    "role": "WEB FULL STACK DEVELOPER",
+    "company": "EduSkills Academy (AICTE)",
+    "duration": "Oct - Dec 2024",
+    "location": "Virtual Internship",
+    "description": "Developed responsive web interfaces using HTML, CSS, and JavaScript. Engineered a capstone project end-to-end, from requirement analysis and system design to live deployment, gaining practical software development lifecycle experience.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Backend APIs", "Agile"],
+    "certificateAvailable": true
+  }
+]

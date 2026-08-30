@@ -1,0 +1,691 @@
+[
+  {
+    "id": "m1",
+    "title": "HUMANOID LIKE ROBOT",
+    "description": "An interactive campus-assistance robot combining embedded control, computer vision, voice interaction, obstacle detection, face recognition and smart embedded processing.",
+    "status": "COMPLETED",
+    "image": "/uploads/1788066958345_humanoid_robot.jpeg",
+    "tags": [
+      "Raspberry Pi 5",
+      "Arduino Due",
+      "Python",
+      "C++",
+      "OpenCV",
+      "Robotics",
+      "Computer Vision",
+      "Embedded Systems"
+    ],
+    "details": {
+      "shortDescription": "HUMANOID LIKE ROBOT is an interactive mini humanoid robot designed to assist students, visitors and staff in a college campus environment.\n\nThe system combines robotics, embedded systems, computer vision, voice interaction, navigation and smart embedded processing to allow the robot to communicate with people and perform assistance-related tasks.\n\nA Raspberry Pi 5 is used for high-level processing, while an Arduino Due handles real-time hardware control such as motors, sensors and actuators.",
+      "category": [
+        "Robotics",
+        "Embedded Systems",
+        "Computer Vision",
+        "Smart Automation"
+      ],
+      "mainTechnologies": [
+        "Python",
+        "C++",
+        "OpenCV",
+        "Speech Recognition",
+        "gTTS",
+        "PySerial",
+        "Arduino IDE",
+        "HTML",
+        "CSS",
+        "React"
+      ],
+      "mainHardware": [
+        "Raspberry Pi 5",
+        "Arduino Due",
+        "DC Motors",
+        "OE-775 Hall-effect Encoders",
+        "BTS7960 Motor Drivers",
+        "PCA9685 Servo Driver",
+        "Servo Motors",
+        "Ultrasonic Sensors",
+        "Camera Module",
+        "Microphone",
+        "Speaker",
+        "Power Management Components"
+      ],
+      "howItWorks": [
+        {
+          "stage": "STAGE 1 — SYSTEM INITIALIZATION",
+          "points": [
+            "When the robot starts, the system initializes the connected hardware and software modules.",
+            "Establishes communication between the Raspberry Pi 5 and Arduino Due.",
+            "Checks system readiness for operation."
+          ]
+        },
+        {
+          "stage": "STAGE 2 — HUMAN INTERACTION",
+          "points": [
+            "The robot uses a microphone to receive voice commands.",
+            "Speech recognition converts the user's speech into text, which is processed to generate an appropriate response.",
+            "Text-to-speech is used to provide spoken responses through the speaker.",
+            "The system can provide campus-related information and interact with users through voice."
+          ]
+        },
+        {
+          "stage": "STAGE 3 — FACE RECOGNITION",
+          "points": [
+            "The camera captures images of people in front of the robot.",
+            "The system detects faces and compares them with the stored face database.",
+            "Identifies registered users and displays their information."
+          ]
+        },
+        {
+          "stage": "STAGE 4 — OBSTACLE DETECTION & NAVIGATION",
+          "points": [
+            "Ultrasonic sensors monitor the robot's surroundings.",
+            "When an obstacle is detected, distance information is sent to the controller.",
+            "The robot stops or changes direction to avoid collisions.",
+            "DC motors use OE-775 Hall-effect encoders to provide feedback about motor speed and direction for controlled movement."
+          ]
+        },
+        {
+          "stage": "STAGE 5 — MANUAL CONTROL",
+          "points": [
+            "The robot can also be controlled manually through a mobile/Android interface using wireless communication.",
+            "The user can send movement commands and monitor the robot's operation remotely."
+          ]
+        },
+        {
+          "stage": "STAGE 6 — EMBEDDED SOFTWARE PROCESSING",
+          "points": [
+            "The Raspberry Pi handles high-level processing including computer vision, voice interaction and decision-making.",
+            "The project uses embedded voice and vision processing algorithms as described in the project documentation."
+          ]
+        }
+      ],
+      "systemFlow": [
+        "SYSTEM INITIALIZATION",
+        "HUMAN DETECTION / INTERACTION",
+        "VOICE OR VISUAL INPUT",
+        "PROCESSING",
+        "DECISION",
+        "SENSOR / MOTOR CONTROL",
+        "ROBOT MOVEMENT / RESPONSE",
+        "USER INTERACTION"
+      ],
+      "customSections": [
+        {
+          "title": "STAGE 1 — SYSTEM INITIALIZATION",
+          "type": "flow",
+          "content": [
+            "SYSTEM START",
+            "HARDWARE INITIALIZATION",
+            "RASPBERRY PI 5 + ARDUINO DUE",
+            "SYSTEM READY"
+          ]
+        },
+        {
+          "title": "STAGE 3 — FACE RECOGNITION",
+          "type": "flow",
+          "content": [
+            "CAMERA",
+            "FACE DETECTION",
+            "FACE DATABASE",
+            "IDENTIFICATION",
+            "RESPONSE"
+          ]
+        },
+        {
+          "title": "STAGE 5 — MANUAL CONTROL",
+          "type": "flow",
+          "content": [
+            "MOBILE CONTROL",
+            "WIRELESS COMMUNICATION",
+            "ROBOT CONTROL",
+            "MOTOR MOVEMENT"
+          ]
+        }
+      ],
+      "keyFeatures": [
+        "Voice-based interaction",
+        "Face recognition",
+        "Campus assistance",
+        "Obstacle detection",
+        "Manual mobile control",
+        "Autonomous robot operation where supported by the project",
+        "DC motor control with encoder feedback",
+        "Embedded vision & voice processing",
+        "Camera-based vision",
+        "Text-to-speech response",
+        "Raspberry Pi + Arduino architecture",
+        "Real-time sensor processing"
+      ],
+      "objectives": [
+        "Develop an interactive robot for college campus assistance.",
+        "Enable voice-based interaction.",
+        "Implement face recognition for registered users.",
+        "Enable safer robot movement using obstacle detection.",
+        "Integrate manual and autonomous operation.",
+        "Combine high-level computing with real-time embedded control.",
+        "Demonstrate practical human-robot interaction."
+      ],
+      "applications": [
+        "College campus assistance",
+        "Visitor assistance",
+        "Educational institutions",
+        "Indoor service robotics",
+        "Human-robot interaction",
+        "Robotics and embedded-systems education"
+      ]
+    }
+  },
+  {
+    "id": "m2",
+    "title": "RESCUE MAZE ROBOT",
+    "description": "An autonomous rescue robot designed to explore a maze, identify victims, deploy appropriate rescue kits, and return to the starting point.",
+    "status": "COMPLETED",
+    "image": "",
+    "tags": [
+      "ESP32",
+      "ESP32-CAM",
+      "Arduino C/C++",
+      "Robotics",
+      "Embedded Systems",
+      "Computer Vision",
+      "Ultrasonic Sensors"
+    ],
+    "details": {
+      "shortDescription": "RESCUE MAZE ROBOT is an autonomous maze exploration and victim-rescue robot designed to navigate a changing maze, explore the available field, identify victims, signal their locations, deploy appropriate rescue kits, and finally return to the starting tile.\n\nUnlike a robot designed only to find the shortest route, this system focuses on autonomous exploration and task completion.\n\nThe robot combines embedded control, obstacle detection, color sensing, camera-based victim identification and mechanical task execution.\n\nThe robot uses an ESP32-based control system with FOUR DC MOTORS for movement, ultrasonic sensors for obstacle detection, a color sensor for floor-tile identification, and an ESP32-CAM for camera-based victim identification.",
+      "category": [
+        "Robotics",
+        "Embedded Systems",
+        "Computer Vision",
+        "Autonomous Navigation"
+      ],
+      "mainTechnologies": [
+        "Arduino C/C++",
+        "ESP32",
+        "ESP32-CAM",
+        "Embedded Systems",
+        "Ultrasonic Sensor Processing",
+        "Color Detection",
+        "Image Processing",
+        "Letter Recognition",
+        "UART Communication"
+      ],
+      "mainHardware": [
+        "ESP32",
+        "ESP32-CAM",
+        "4 DC Motors",
+        "Motor Driver",
+        "Ultrasonic Sensors",
+        "TCS3200 Color Sensor",
+        "Servo Motor",
+        "Buzzer",
+        "Blue Status LED",
+        "Rescue Kit Deployment Mechanism",
+        "Battery / Power Supply"
+      ],
+      "howItWorks": [
+        {
+          "stage": "STAGE 1 — AUTONOMOUS MAZE EXPLORATION",
+          "points": [
+            "The robot begins at the designated start tile and autonomously explores the maze rather than simply searching for the fastest route.",
+            "The maze layout may change before a run, so the robot must respond to the environment using its sensors instead of relying on a fixed path.",
+            "The robot continuously processes environmental information and controls its movement accordingly."
+          ]
+        },
+        {
+          "stage": "STAGE 2 — OBSTACLE & WALL DETECTION",
+          "points": [
+            "Ultrasonic sensors are used to detect walls and obstacles around the robot.",
+            "Based on sensor readings, the ESP32 controls the robot's movement and allows it to move forward, turn left, turn right, perform a U-turn, or stop when required.",
+            "The robot uses FOUR DC MOTORS for movement."
+          ]
+        },
+        {
+          "stage": "STAGE 3 — SPECIAL TILE RECOGNITION",
+          "points": [
+            "The robot identifies important floor conditions using its color-sensing system.",
+            "BLUE PUDDLE: When a blue puddle tile is detected, the robot must stop for 5 consecutive seconds and flash a blue light before continuing.",
+            "BLACK HAZARD: Black tiles represent hazardous areas. The robot avoids the black tile and performs a U-turn when required.",
+            "SILVER CHECKPOINT: Silver tiles represent checkpoints. After a lack-of-progress condition, the robot can return to the last visited checkpoint, or the start tile if no checkpoint has been reached."
+          ]
+        },
+        {
+          "stage": "STAGE 4 — VICTIM DETECTION",
+          "points": [
+            "The robot searches for victims placed inside the maze, represented by H (Harmed), S (Stable), or U (Unharmed).",
+            "The ESP32-CAM captures visual information and performs image processing to identify the victim letter.",
+            "Once a victim is identified, the robot provides a visual indication to signal the detection."
+          ]
+        },
+        {
+          "stage": "STAGE 5 — RESCUE KIT DEPLOYMENT",
+          "points": [
+            "After identifying a victim, the robot determines the required rescue response.",
+            "H — HARMED: 2 RESCUE KITS",
+            "S — STABLE: 1 RESCUE KIT",
+            "U — UNHARMED: 0 RESCUE KITS",
+            "The robot deploys the appropriate rescue kits near the identified victim."
+          ]
+        },
+        {
+          "stage": "STAGE 6 — RECOVERY & RETURN",
+          "points": [
+            "The system handles lack-of-progress conditions such as visiting a black tile, leaving a blue tile too early, damage to the field, or unauthorized contact.",
+            "After a lack-of-progress condition, the robot returns to the last visited checkpoint, or the start tile if no checkpoint has been reached.",
+            "After completing the required exploration and rescue tasks, the robot returns to the START TILE to finish the run."
+          ]
+        }
+      ],
+      "systemFlow": [
+        "START TILE",
+        "AUTONOMOUS MAZE EXPLORATION",
+        "OBSTACLE / WALL DETECTION",
+        "SPECIAL TILE DETECTION",
+        "VICTIM SEARCH",
+        "ESP32-CAM IMAGE PROCESSING",
+        "H / S / U IDENTIFICATION",
+        "VICTIM SIGNAL",
+        "RESCUE KIT DEPLOYMENT",
+        "CONTINUE EXPLORATION",
+        "CHECKPOINT / RECOVERY",
+        "RETURN TO START TILE"
+      ],
+      "customSections": [
+        {
+          "title": "STAGE 1 — AUTONOMOUS MAZE EXPLORATION",
+          "type": "flow",
+          "content": [
+            "START TILE",
+            "ENVIRONMENT DETECTION",
+            "AUTONOMOUS NAVIGATION",
+            "MAZE EXPLORATION"
+          ]
+        },
+        {
+          "title": "STAGE 4 — VICTIM DETECTION",
+          "type": "flow",
+          "content": [
+            "CAMERA",
+            "IMAGE PROCESSING",
+            "LETTER IDENTIFICATION",
+            "H / S / U",
+            "VICTIM DETECTED"
+          ]
+        }
+      ],
+      "keyFeatures": [
+        "Autonomous maze exploration",
+        "Four-wheel DC motor drive",
+        "Ultrasonic obstacle detection",
+        "Wall detection",
+        "Color-based special-tile recognition",
+        "Blue puddle handling",
+        "Black hazard avoidance",
+        "Silver checkpoint handling",
+        "ESP32-CAM victim recognition",
+        "H / S / U victim identification",
+        "Victim signaling",
+        "Automatic rescue-kit deployment",
+        "Recovery after lack of progress",
+        "Autonomous return to start tile",
+        "ESP32-based embedded control",
+        "ESP32-CAM communication"
+      ],
+      "objectives": [
+        "Develop an autonomous robot capable of exploring a changing maze.",
+        "Detect and avoid obstacles and hazardous areas.",
+        "Recognize special floor tiles.",
+        "Search for and identify victims inside the maze.",
+        "Signal detected victim locations.",
+        "Deploy the appropriate number of rescue kits.",
+        "Recover from lack-of-progress situations.",
+        "Complete the rescue mission and return to the start tile."
+      ],
+      "applications": [
+        "Search-and-rescue robotics",
+        "Disaster-response robotics concepts",
+        "Autonomous navigation research",
+        "Robotics competitions",
+        "Embedded systems projects",
+        "Computer vision-based robotic systems",
+        "Autonomous task-completion robots"
+      ]
+    }
+  },
+  {
+    "id": "m3",
+    "title": "SAFEFRUIT AUTOMATION",
+    "description": "Automated fruit inspection, washing, UV sanitization and sorting using computer vision, sensors and embedded automation.",
+    "status": "COMPLETED",
+    "image": "/uploads/1787752936450_Image_1.jpeg",
+    "githubUrl": "https://github.com/Karthikeya907/SafeFruit-AI",
+    "tags": [
+      "Python",
+      "OpenCV",
+      "Arduino",
+      "Flask",
+      "Embedded Systems",
+      "Automation"
+    ],
+    "details": {
+      "shortDescription": "An automated fruit inspection, washing, UV sanitization, and sorting system combining computer vision, sensors, and mechanical automation for multi-stage fruit quality evaluation.",
+      "category": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Automation",
+        "Robotics / Mechatronics"
+      ],
+      "mainTechnologies": [
+        "Python",
+        "Flask",
+        "OpenCV",
+        "PySerial",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Arduino C/C++"
+      ],
+      "mainHardware": [
+        "Arduino Nano",
+        "USB Camera",
+        "HC-SR04 Ultrasonic Sensor",
+        "MQ-135 Gas Sensor",
+        "pH Sensor",
+        "PCA9685 Servo Driver",
+        "3 Servo Motors",
+        "2 L298N Motor Drivers",
+        "Conveyor DC Motor",
+        "2 Water Pumps",
+        "Relay Module",
+        "UV LED Strips",
+        "12V Power Supply / Battery"
+      ],
+      "howItWorks": [
+        {
+          "stage": "STAGE 1 — COMPUTER VISION INSPECTION",
+          "points": [
+            "An ultrasonic sensor detects fruit entering the conveyor.",
+            "The USB camera captures multiple images.",
+            "The images are processed using computer vision algorithms to identify the fruit and detect visible defects such as: rot, bruises, mold, abnormal surface conditions.",
+            "The system makes the first pass/fail decision based on vision algorithms.",
+            "Rejected fruits are directed toward the waste path.",
+            "Approved fruits continue to Stage 2."
+          ]
+        },
+        {
+          "stage": "STAGE 2 — WASHING & CHEMICAL SENSING",
+          "points": [
+            "Approved fruits enter the washing section.",
+            "Two water pumps wash the fruit.",
+            "An MQ-135 gas sensor is used to detect gases associated with possible spoilage.",
+            "A pH sensor measures the acidity/alkalinity of the washing water.",
+            "Servo-controlled mechanisms position the sensors.",
+            "The sensor results are evaluated along with the previous vision inspection result.",
+            "Rejected fruits are directed to the waste path.",
+            "Approved fruits continue to Stage 3."
+          ]
+        },
+        {
+          "stage": "STAGE 3 — UV SANITIZATION & SORTING",
+          "points": [
+            "The fruit enters the UV sanitization section.",
+            "UV LED strips are activated through a relay module for a fixed sanitization period.",
+            "After UV treatment, a servo-controlled sorting mechanism directs the fruit to the appropriate collection area.",
+            "Passing fruits: → Healthy Fruit Bin",
+            "Rejected fruits: → Waste Bin"
+          ]
+        }
+      ],
+      "systemFlow": [
+        "Fruit Entry",
+        "Ultrasonic Detection",
+        "Vision Image Capture",
+        "Fruit & Defect Detection",
+        "Stage 1 Decision",
+        "Washing",
+        "MQ-135 & pH Analysis",
+        "Stage 2 Decision",
+        "UV Sanitization",
+        "Servo Sorting",
+        "Healthy Bin / Waste Bin"
+      ],
+      "keyFeatures": [
+        "Vision-based fruit identification",
+        "Surface defect detection",
+        "Automatic fruit detection",
+        "Automated washing",
+        "Gas-based spoilage detection",
+        "pH-based analysis",
+        "UV sanitization",
+        "Automatic sorting",
+        "Multi-stage quality evaluation",
+        "Automated conveyor operation",
+        "Web-based monitoring"
+      ],
+      "objectives": [
+        "Automate fruit identification and defect detection",
+        "Detect possible spoilage using gas sensing",
+        "Monitor washing-water pH",
+        "Automate fruit washing",
+        "Provide UV-based surface sanitization",
+        "Automatically separate healthy and rejected fruits",
+        "Reduce manual inspection effort",
+        "Improve food-safety-oriented fruit handling"
+      ],
+      "applications": [
+        "Fruit processing units",
+        "Food packaging industries",
+        "Agricultural processing",
+        "Fruit quality inspection",
+        "Post-harvest handling",
+        "Automated food-safety systems"
+      ]
+    }
+  },
+  {
+    "id": "m4",
+    "title": "ECOCHARGE PARK",
+    "description": "ECOCHARGE PARK is a renewable-energy-based EV charging prototype that combines embedded control, robotic automation and smart monitoring to demonstrate an automated charging ecosystem.",
+    "status": "COMPLETED",
+    "githubUrl": "https://github.com/Karthikeya907/EchoCharge-Park",
+    "tags": [
+      "ESP32",
+      "Robotics",
+      "IoT",
+      "Renewable Energy",
+      "Automation",
+      "Embedded Systems"
+    ],
+    "details": {
+      "shortDescription": "ECOCHARGE PARK is a renewable-energy-based EV charging prototype that combines embedded control, robotic automation, and smart monitoring to demonstrate an automated charging ecosystem.\n\nThe system integrates solar tracking, wind energy generation, ultrasonic obstacle detection, RFID access control, servo-based vehicle barrier automation, and wireless monitoring.\n\nAn ESP32 serves as the core microcontroller for sensor processing, solar tracking control, barrier operation, and wireless data communication.",
+      "category": [
+        "Embedded Systems",
+        "Renewable Energy",
+        "Robotics / Mechatronics",
+        "IoT & Automation"
+      ],
+      "mainTechnologies": [
+        "Arduino C/C++",
+        "ESP32",
+        "Embedded Systems",
+        "Solar Tracking Control",
+        "Sensor Interfacing",
+        "RFID Authentication",
+        "Servo Motor Control",
+        "DC Motor Control",
+        "Wireless Data Transfer"
+      ],
+      "mainHardware": [
+        "ESP32 Microcontroller",
+        "Solar Panel",
+        "Windmill / Wind Turbine Model",
+        "LDR Sensors",
+        "SG90 Servo Motors",
+        "DC Motors",
+        "L298N Motor Driver",
+        "HC-SR04 Ultrasonic Sensors",
+        "MFRC522 RFID Module",
+        "RFID Cards / Tags",
+        "16x2 I2C LCD Display",
+        "Relay Module",
+        "Buzzer",
+        "Status LEDs",
+        "Rechargeable Battery"
+      ],
+      "howItWorks": [
+        {
+          "stage": "STAGE 1 — RENEWABLE ENERGY GENERATION",
+          "points": [
+            "SOLAR TRACKING: Light Dependent Resistors (LDRs) compare light intensity across the solar panel. The ESP32 calculates light direction and moves a servo motor to position the solar panel toward the brightest light source.",
+            "WIND POWER GENERATION: A windmill/wind turbine model generates auxiliary power as wind rotates the blades, which is routed into the charging/power management circuit."
+          ]
+        },
+        {
+          "stage": "STAGE 2 — VEHICLE ENTRY & RFID AUTHENTICATION",
+          "points": [
+            "An ultrasonic sensor detects an approaching vehicle at the entrance gate.",
+            "The vehicle user swipes an RFID card at the MFRC522 RFID reader.",
+            "If the RFID tag is valid: Access is granted, the LCD displays 'ACCESS GRANTED', the buzzer beeps, and the servo barrier lifts to allow vehicle entry.",
+            "If the RFID tag is invalid: Access is denied, the LCD displays 'ACCESS DENIED', the buzzer sounds an alert, and the barrier remains closed."
+          ]
+        },
+        {
+          "stage": "STAGE 3 — CHARGING BAY NAVIGATION",
+          "points": [
+            "After passing the entry barrier, the vehicle moves toward the designated charging bay.",
+            "Ultrasonic sensors assist in vehicle positioning inside the bay to prevent collisions."
+          ]
+        },
+        {
+          "stage": "STAGE 4 — EV CHARGING PROCESS",
+          "points": [
+            "Once the vehicle is parked, the charging connection is activated.",
+            "Power generated from the solar tracking panel and wind turbine charges the vehicle battery/power system.",
+            "The 16x2 I2C LCD displays real-time charging status."
+          ]
+        },
+        {
+          "stage": "STAGE 5 — EXIT AUTOMATION",
+          "points": [
+            "An exit ultrasonic sensor detects the vehicle completing its session.",
+            "The exit servo barrier opens automatically to allow the vehicle to leave."
+          ]
+        }
+      ],
+      "systemFlow": [
+        "SOLAR LIGHT / WIND GENERATION",
+        "LDR SENSORS",
+        "ESP32 SOLAR TRACKING",
+        "VEHICLE APPROACH",
+        "ULTRASONIC DETECTION",
+        "RFID AUTHENTICATION",
+        "SERVO BARRIER OPEN",
+        "CHARGING BAY NAVIGATION",
+        "RENEWABLE EV CHARGING",
+        "LCD STATUS MONITORING",
+        "SESSION COMPLETE",
+        "EXIT BARRIER OPEN"
+      ],
+      "customSections": [
+        {
+          "title": "STAGE 1 — RENEWABLE ENERGY GENERATION",
+          "type": "flow",
+          "content": [
+            "SOLAR LIGHT / WIND",
+            "LDR SENSORS",
+            "ESP32 PROCESSING",
+            "SERVO SOLAR TRACKING",
+            "POWER GENERATION"
+          ]
+        },
+        {
+          "title": "STAGE 2 — VEHICLE ENTRY & RFID AUTHENTICATION",
+          "type": "flow",
+          "content": [
+            "VEHICLE APPROACH",
+            "ULTRASONIC DETECTION",
+            "RFID CARD READ",
+            "AUTHENTICATION",
+            "SERVO BARRIER OPEN"
+          ]
+        }
+      ],
+      "keyFeatures": [
+        "Dual-axis / Single-axis solar tracking",
+        "Wind energy generation",
+        "RFID-based access control",
+        "Automated servo entry/exit barriers",
+        "Ultrasonic vehicle detection",
+        "16x2 I2C LCD status display",
+        "ESP32 central control",
+        "Buzzer & LED status alerts",
+        "Renewable EV charging demonstration",
+        "Smart parking bay management"
+      ],
+      "objectives": [
+        "Demonstrate a solar and wind-powered EV charging infrastructure.",
+        "Automate vehicle entry using RFID authentication.",
+        "Implement automatic barrier operation using servo motors.",
+        "Maximize solar panel output using LDR light-tracking.",
+        "Provide real-time user feedback using an LCD screen.",
+        "Combine renewable energy, embedded control, and smart automation into a unified project."
+      ],
+      "applications": [
+        "Smart EV charging stations",
+        "Renewable energy integration projects",
+        "Smart city infrastructure prototypes",
+        "Automated parking management systems",
+        "Green technology demonstrations",
+        "Embedded systems & IoT applications"
+      ]
+    },
+    "image": "/uploads/1788066644734_Image_1.jpeg"
+  },
+  {
+    "id": "m5",
+    "title": "THE APPS - UNIFIED WEB UTILITY PLATFORM",
+    "description": "A responsive front-end aggregator platform providing zero-installation browser access to a curated suite of utility applications — optimized for fast load times, cross-device compatibility, and accessible UI.",
+    "status": "COMPLETED",
+    "image": "/uploads/1788066644734_Image_1.jpeg",
+    "tags": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Vercel CI/CD",
+      "Web Utility Platform"
+    ],
+    "details": {
+      "shortDescription": "Developed a responsive front-end aggregator platform providing zero-installation browser access to a curated suite of utility applications — optimized for fast load times, cross-device compatibility, and accessible UI using semantic HTML5 and structured CSS3. Deployed on Vercel with a continuous integration pipeline enabling automatic re-deployment on every code push.",
+      "category": [
+        "Web Development",
+        "Front-End Aggregator",
+        "Utility Platform"
+      ],
+      "mainTechnologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Vercel",
+        "CI/CD"
+      ],
+      "mainHardware": [
+        "Vercel Cloud Server",
+        "GitHub Repository"
+      ],
+      "keyFeatures": [
+        "Zero-installation web apps accessible directly via browser.",
+        "Curated suite of utility and productivity applications.",
+        "Optimized for fast page load times and mobile compatibility.",
+        "Automated CI/CD deployment pipeline via Vercel."
+      ],
+      "futureImprovements": [
+        "Integrate offline PWA (Progressive Web App) caching.",
+        "Expand utility app suite with web-based developer tools."
+      ],
+      "applications": [
+        "Web utility aggregation",
+        "Developer and student toolkits",
+        "Cross-device web applications"
+      ]
+    }
+  }
+]

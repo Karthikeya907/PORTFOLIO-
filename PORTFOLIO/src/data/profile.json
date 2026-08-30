@@ -1,0 +1,65 @@
+{
+  "profile": {
+    "name": "Naga Karthikeya Guthi",
+    "title": "CSE Graduated • Robotics & Embedded Systems Engineer",
+    "shortIntro": "Open to engineering opportunities, technical discussions, and collaborations in Robotics and Embedded Systems.",
+    "profileImage": "",
+    "email": "nagakarthikeyaguthi2005@gmail.com",
+    "phone": "+91 8688153653",
+    "whatsapp": "+91 8688153653",
+    "location": "India"
+  },
+  "socialLinks": [
+    {
+      "id": "linkedin",
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/naga-karthikeya-guthi-76711a28a",
+      "visible": true
+    },
+    {
+      "id": "github",
+      "platform": "GitHub",
+      "url": "https://github.com/Karthikeya907?tab=repositories",
+      "visible": true
+    },
+    {
+      "id": "hackerrank",
+      "platform": "HackerRank",
+      "url": "https://hackerrank.com/profile/226K1A0582",
+      "visible": true
+    }
+  ],
+  "about": {
+    "shortIntro": "Welcome to the digital workspace of Naga Karthikeya Guthi.",
+    "description": "My primary focus lies at the intersection of hardware and software, specifically within Robotics and Embedded Systems. I am driven by the process of designing physical systems that can perceive their environment, make decisions, and act autonomously.",
+    "currentFocus": "Currently expanding knowledge in advanced kinematics, ROS (Robot Operating System), and PCB design methodologies.",
+    "interests": [
+      "Robotics",
+      "Embedded Systems",
+      "Computer Vision",
+      "Autonomous Navigation",
+      "Internet of Things (IoT)"
+    ]
+  },
+  "resume": {
+    "fileUrl": "/uploads/naga_karthikeya_resume.pdf",
+    "filename": "Naga_Karthikeya_Guthi_Resume.pdf",
+    "available": true,
+    "lastUpdated": "2026-08-30"
+  },
+  "settings": {
+    "siteTitle": "Naga Karthikeya Guthi - Portfolio",
+    "heroHeading": "NAGA KARTHIKEYA GUTHI",
+    "heroSubtitle": "ROBOTICS - EMBEDDED SYSTEMS - SOFTWARE",
+    "showSections": {
+      "capabilities": true,
+      "projects": true,
+      "internships": true,
+      "engineering": true,
+      "credentials": true,
+      "connect": true
+    },
+    "enableAnimations": true,
+    "enableSound": true
+  }
+}
