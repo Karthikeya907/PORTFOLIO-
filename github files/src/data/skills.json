@@ -1,0 +1,18 @@
+[
+  {
+    "category": "PROGRAMMING LANGUAGES",
+    "skills": ["C", "C++", "Python", "Java", "Basic MySQL / SQL", "HTML", "CSS"]
+  },
+  {
+    "category": "PLATFORMS, TOOLS & SERVICES",
+    "skills": ["Firebase", "Git", "GitHub", "LinkedIn", "HackerRank"]
+  },
+  {
+    "category": "DOMAINS & EMBEDDED SYSTEMS",
+    "skills": ["Robotics", "Embedded Systems", "Internet of Things (IoT)", "Hardware Prototyping"]
+  },
+  {
+    "category": "SOFT SKILLS & PROFESSIONAL",
+    "skills": ["Team Collaboration", "Problem Solving", "Adaptability", "Technical Communication", "Project Lifecycle Management"]
+  }
+]
