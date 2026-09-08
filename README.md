@@ -1,52 +1,83 @@
-# Naga Karthikeya Guthi — Engineering Portfolio
+# Naga Karthikeya Guthi - Portfolio 🚀
 
-> **CSE Graduate | Robotics & Embedded Systems Engineer**
-
-A futuristic, high-performance web portfolio highlighting projects, certifications, internships, and engineering capabilities in Robotics, Embedded Systems (ESP32, Arduino, Raspberry Pi 5), Computer Vision, and Software Engineering.
+A modern, high-performance interactive portfolio of **Naga Karthikeya Guthi** — CSE Graduate and Robotics & Embedded Systems Enthusiast. Built with **React 19**, **Vite**, **TypeScript**, **TailwindCSS v4**, **Framer Motion**, and **Three.js / React Three Fiber**.
 
 ---
 
-## ⚡ Tech Stack & Architecture
+## 🌐 Live Portfolio
 
-- **Frontend**: React 19, TypeScript, Vite, TailwindCSS v4, Framer Motion, Lucide Icons, Three.js
-- **Backend API**: Node.js, Express.js, Nodemailer
-- **Audio Engine**: Custom Web Audio API Synthesizer (Tab-visibility auto-pause enabled)
-- **Deployment**: Vercel / Render / Netlify
+🔗 **Live Demo**: [Link to Open](YOUR_LIVE_PORTFOLIO_URL_HERE)
 
 ---
 
-## 🚀 Features
+## 👨‍💻 About
 
-- 🤖 **Interactive Hardware Cores**: Dynamic 3D mechatronics visualizers.
-- 📜 **Full Certificate & Resume Viewer**: High-resolution document viewing and direct PDF download.
-- ⚡ **Project Vault**: Deep-dive showcases for IRIS Humanoid Robot, Rescue Maze Robot, SafeFruit Automation, EcoCharge Park & THE APPS.
-- 🔐 **Live Admin Dashboard**: Real-time content editing and image uploads.
+- **Degree / Field**: CSE Graduate
+- **Specializations & Interests**: Robotics, Embedded Systems, Internet of Things (IoT), Autonomous Systems & Software Development
 
 ---
 
-## 🛠️ Local Setup
+## 🌟 Key Features
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run dev server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Build production bundle**:
-   ```bash
-   npm run build
-   ```
+- **Cyberpunk / Sci-Fi Interactive Aesthetic**: Custom UI with interactive components, glowing circuits, and smooth motion.
+- **Project Vault & Modal Viewer**: Dynamic project showcase with detailed modals, architecture breakdowns, and category filters.
+- **Certifications & Internships**: Full credentials showcase with PDF and certificate modal viewers.
+- **Admin Control Center**: Built-in admin dashboard for live content management backed by Supabase storage.
+- **Audio Engine**: Interactive ambient sounds and background music controls.
+- **Responsive Layout**: Designed to work seamlessly across mobile, tablet, and desktop screens.
 
 ---
 
-© 2026 Naga Karthikeya Guthi. All rights reserved.
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS v4
+- **Animations & Icons**: Framer Motion, Lucide React, React Icons
+- **3D Graphics & Canvas**: Three.js, @react-three/fiber, @react-three/drei
+- **Backend / Storage**: Express (Optional Backend), Supabase JS Client
+
+---
+
+## 🚀 Local Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/PORTFOLIO.git
+cd PORTFOLIO
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Setup Environment Variables
+Copy `.env.example` to `.env.local` and add your configuration details:
+```bash
+cp .env.example .env.local
+```
+
+### 4. Run Development Server
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Production Build & Deployment
+
+### Build the Project
+```bash
+npm run build
+```
+
+### Deploy to Vercel (Recommended)
+1. Push your repository to **GitHub**.
+2. Go to [Vercel](https://vercel.com/) and click **Add New Project**.
+3. Import this GitHub repository.
+4. Add your Environment Variables (`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`) in Vercel Settings.
+5. Click **Deploy**.
+
+---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
